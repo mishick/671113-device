@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Michael Pyrkh](https://up.htmlacademy.ru/htmlcss/22/user/671113).
-* Наставник: `Неизвестно`.
+* Наставник: [Max Vorozhtsov](https://www.facebook.com/maks.vorozcov).
 
 ---
 

@@ -7,43 +7,198 @@
   </head>
   <body>
   	<header class="main-header">
-  		<nav class="main-nav">
-  			<img src="img/logo.svg" width="162" height="36" alt="Device">
-  				<form class="site-navigation-top" role="search">
-  					<div class="search-control">
-  						<input type="search" id="site-search" name="q"placeholder="Search the site..." label="Search through site content">
-  						<button>Search</button>
-  					</div>
-  				</form>
-  				<li><a href=""></a></li>
-  			<ul class="site-navigation-top">
-  				<li><a href="">Войти</a></li>
-  				<li><a href=""> Сравнить</a></li>
-  				<li><a href=""> Корзина</a></li>
-  			</ul>
-  			<ul class="site-navigation-bottom">
-  				<li><a href="">Каталог товаров</a></li>
-  				<li> <a href="">Доставка</a></li>
-  				<li> <a href="">Гарания</a></li>
-  				<li> <a href="">Контакты</a></li>
-  			</ul>
-  		</nav>
-  	</header>
+      <nav class="main-nav">
+        <img src="img/logo.svg" width="162" height="36" alt="Device">
+          <form class="site-navigation-top" role="search">
+            <div class="search-control">
+              <input type="search" id="site-search" name="q"placeholder="Search the site..." label="Search through site content">
+              <img class="header-icon" src="img/search.svg">
+              <button>Search</button>
+            </div>
+          </form>
+          <li><a href=""></a></li>
+        <ul class="header-navigation-top">
+          <li>
+            <a href="">Войти</a>
+            <img class="header-icon" src="img/user.svg">
+          </li>          
+          <li><a href=""> Сравнить</a>
+          <img class="header-icon" src="img/compare.svg">
+          </li>
+          <li><a href=""> Корзина</a>
+          <img class="header-icon" src="img/cart.svg">
+          </li>
+        </ul>
 
+        <ul class="header-navigation-bottom">
+          <li><a href="">Каталог товаров</a></li>
+          <li> <a href="">Доставка</a></li>
+          <li> <a href="">Гарания</a></li>
+          <li> <a href="">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Sub-header-->
   	<main class="container">
+      <header class="sub-header">
+        <h1>Моноподы для селфи</h1>
+        <nav class="breadcrumbs"">
+          <ul>
+            <li><a href="index.html">Главная</a>
+            <img src="img/nav-arrow.svg">
+            </li>
+            <li><a href="catalog.html">Каталог товаров</a>
+            <img src="img/nav-arrow.svg">
+            </li>
+            <li class="breadcrumbs-current">Средства для ухода</li>
+          </ul>
+        <nav>
+      </header>
+      <section class="sort-header">
+        <h2>Сортировка:</h2>
+        <ul class="sort-header-filter">
+          <li><a href="#">По новизне</a></li>
+          <li><a href="#">По типу</a></li></li>
+          <li><a href="#">По популярности</a></li></li>
+        </ul>
+        <a href="#"><img src="img/icon-up-dir.svg"></a>
+        <a href="#"><img src="img/icon-down-dir.svg"></a>
+      </section>
+      <!-- Menu-->
+      <aside class="side-filters">
+        <h2 class="filter-title">Фильтр:</h2>
+        <form class="filter" method="get" echo="#">
+          <fieldset class="filter-option">
+            <legend>Стоимость</legend>
+            <ul>
+              <li>
+                <input class="side-rannge-filter" type="range" min="350" max="10000" value="150"  id="priceRange name="radio"">
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="filter-option">
+            <legend>Цвет</legend>
+            <ul>
+              <li>
+                <label><input type="checkbox" name="">Черный</label>
+              </li>
+              <li>
+                <label><input type="checkbox" name="" checked> Синий</label>
+              </li>
+              <li>
+                <label><input type="checkbox" name="" checked> Белый</label>
+              </li>
+              <li>
+                <label><input type="checkbox" name=""> Красный</label>
+              </li>
+              <li>
+                <label><input type="checkbox" name="" >Розовый</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="filter-option">
+            <legend>Bluetooth</legend>
+            <ul>
+              <li>
+                <label><input type="radio" name="radio"> Ecть</label>
+              </li>
+              <li>
+                <label><input type="radio" name="radio" checked> Нет</label>
+              </li>
+            </ul>
+          </fieldset>
+        </form>
+      </aside>
+      <!-- Catalog-->
+      <section class="catalog">
+        <h2 class="visually-hidden">Список устройств</h2>
+        <ul class="catalog-list">
+          <li class="catalog-item">
+            <p class="catalog-item-image">
+              <a href="#">
+                <img src="img/item-1.jpg" width="360" height="380" alt="Любительская селфи-палка">
+              </a>
+              <h3>
+              <a href="#">
+                <span class="catalog-item-title">Любительская селфи-палка</span>
+              </a>
+            </h3>
+            </p>
+            <p class="catalog-item-price">
+              <b>500 грн.</b>
+            </p>
+          </li>
+        <li class="catalog-item">
+            <p class="catalog-item-image">
+              <a href="#">
+                <img src="img/item-2.jpg" width="360" height="380" alt="Профессиональная селфи-палка">
+              </a>
+              <h3>
+              <a href="#">
+                <span class="catalog-item-title">Профессиональная селфи-палка</span>
+              </a>
+            </h3>
+            </p>
+            <p class="catalog-item-price">
+              <b>1500 грн.</b>
+            </p>
+          </li>
+          <li class="catalog-item">
+            <p class="catalog-item-image">
+              <a href="#">
+                <img src="img/item-3.jpg" width="360" height="380" alt="Непотопляемая селфи-палка">
+              </a>
+              <h3>
+              <a href="#">
+                <span class="catalog-item-title">Непотопляемая селфи-палка</span>
+              </a>
+            </h3>
+            </p>
+            <p class="catalog-item-price">
+              <b>2500 грн.</b>
+            </p>
+          </li>
+          <li class="catalog-item">
+            <p class="catalog-item-image">
+              <a href="#">
+                <img src="img/item-4.jpg" width="360" height="380" alt="Селфи-палка «Следуй за мной»">
+              </a>
+              <h3>
+              <a href="#">
+                <span class="catalog-item-title">Селфи-палка «Следуй за мной»</span>
+              </a>
+            </h3>
+            </p>
+            <p class="catalog-item-price">
+              <b>4600 грн.</b>
+            </p>
+          </li>
+        </ul>
+      <section>
+        <ul class="pagination-list">
+          <li class="pagination-item"><a href="#">1</a></li>
+          <li class="pagination-item pagination-item-current"><a>2</a></li>
+          <li class="pagination-item"><a href="#">3</a></li>
+          <li class="pagination-item"><a href="#">4</a></li>
+        </ul>
+      </section>
     </main>
-
     <footer class="main-footer">
       <nav class="footer-nav">
         <img src="img/logo_footer.svg" width="162" height="36" alt="Device">
-          <li><a href=""></a></li>
-        <ul class="site-navigation-top-footer">
-          <li><a href="">Войти</a></li>
-          <li><a href=""> Сравнить</a></li>
-          <li><a href=""> Корзина</a></li>
+        <ul class="footer-navigation-top">
+          <li>
+            <a href="">Войти</a>
+            <img class="footer-icon" src="img/user.svg">
+          </li>          
+          <li><a href=""> Сравнить</a>
+          <img class="footer-icon" src="img/compare.svg">
+          </li>
+          <li><a href=""> Корзина</a>
+          <img class="footer-icon" src="img/cart.svg">
+          </li>
         </ul>
-
-        <ul class="site-navigation-bottom-footer">
+        <ul class="footer-navigation-bottom">
           <li> <a href="">Доставка</a></li>
           <li> <a href="">Гарания</a></li>
           <li> <a href="">Контакты</a></li>
@@ -63,7 +218,6 @@
           Киев, Басеиная, 1а
         </address>
       </nav>
-      
     </footer>
   </body>
 </html>

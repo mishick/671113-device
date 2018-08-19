@@ -12,17 +12,25 @@
   				<form class="site-navigation-top" role="search">
   					<div class="search-control">
   						<input type="search" id="site-search" name="q"placeholder="Search the site..." label="Search through site content">
+              <img class="header-icon" src="img/search.svg">
   						<button>Search</button>
   					</div>
   				</form>
   				<li><a href=""></a></li>
-  			<ul class="site-navigation-top">
-  				<li><a href="">Войти</a></li>
-  				<li><a href=""> Сравнить</a></li>
-  				<li><a href=""> Корзина</a></li>
+  			<ul class="header-navigation-top">
+  				<li>
+            <a href="">Войти</a>
+            <img class="header-icon" src="img/user.svg">
+          </li>          
+  				<li><a href=""> Сравнить</a>
+          <img class="header-icon" src="img/compare.svg">
+          </li>
+  				<li><a href=""> Корзина</a>
+          <img class="header-icon" src="img/cart.svg">
+          </li>
   			</ul>
 
-  			<ul class="site-navigation-bottom">
+  			<ul class="header-navigation-bottom">
   				<li><a href="">Каталог товаров</a></li>
   				<li> <a href="">Доставка</a></li>
   				<li> <a href="">Гарания</a></li>
@@ -31,10 +39,64 @@
   		</nav>
   	</header>
   	<main class="container">
-  		<h1 class="visually-hidden">Device - магазин электронной техники
-  		</h1>
-  		<h2 class="slide-title">Делай селфи, как Бен Стиллер!</h1>
-  		<h3 class="slide-number">01</h3>
+      <!-- Slider -->
+  		<section class="hero">
+    <!-- Slide-01-->
+        <div class="mySlides fade">
+          <div class="slide-number">01</div>
+          <h2 class="slide-title">Делай селфи, как Бен Стиллер!</h2>
+          <h3 class="slide-description">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</h3>
+          <img class="slide-image" src="img/slider-1.png">
+          <br>
+          <a href="#" class="slide-link">Подробнее</a>
+          <br>
+          <table class="slide-feature-lest">
+            <tr>8,5 м</tr>
+            <tr>5 кг</tr>
+            <tr>Карбон</tr>
+            <th>Длина палки</th>
+            <th>Вес палки</th>
+            <th>Материал</th>
+          </table>
+        </div>
+        <!-- Slide-02-->
+        <div class="mySlides fade">
+          <div class="slide-number">02</div>
+          <h2 class="slide-title">Худеем правильно!</h2>
+          <h3 class="slide-description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</h3>
+          <br>
+          <img class="slide-image" src="img/slider-2.png">
+          <br>
+          <a href="#" class="slide-link">Подробнее</a>
+          <br>
+          <table class="slide-feature-lest">
+            <tr>48 часов</tr>
+            <th>Без подзарядки</th>
+          </table>
+        </div>
+        <!-- Slide-03-->
+        <div class="mySlides fade">
+          <div class="slide-number">03</div>
+          <h2 class="slide-title">Худеем правильно!</h2>
+          <h3 class="slide-description">Порхает как бабочка,жалит как пчела!</h3>
+          <img class="slide-image" src="img/slider-3.png">
+          <br>
+          <a href="#" class="slide-link">Подробнее</a>
+          <br>
+          <table class="slide-feature-lest">
+            <tr>800м</tr>
+            <tr>50м</tr>
+            <th>Дальность полета</th>
+            <th>Радиус действия</th>
+          </table>
+        </div>
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+      </section>
   		<section class="features">
   			<h2 class="visually-hidden">Ассортимент</h2>
   			<ul class="features-list">
@@ -61,7 +123,6 @@
   					<img src="img/popular-5.svg" width="162" height="36">
   					<h3>Умные часы</h3>
   				</li>
-
   				<li class="feature-item">
   					<img src="img/popular-6.svg" width="162" height="36">
   					<h3>Квадрокоптеры</h3>
@@ -72,15 +133,17 @@
       <section class="service">
         <h2 class="service-title">Доставка</h2>
         <p class="service-description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
-        <img src="img/delivery.svg">
+        <img class="service-image" src="img/delivery.svg">
       </section>
       <section class="service">
         <h2 class="service-title">Гарантия</h2>
         <p class="service-description">Гарантия согласно условиям производителя. Обмен и возврат товаров производится согласно дейтсвующего законодательства.</p>
+        <img class="service-image" src="img/warranty.svg">
       </section>
       <section class="service">
         <h2 class="service-title">Доставка</h2>
         <p class="service-description">Доставка товаров осуществляется в кратчайшие сроки курьером по городу либо почтовыми голубями.</p>
+        <img class="service-image" src="img/credit.svg">
       </section>
       <section class="brands">
         <ul class="brands-list">
@@ -99,10 +162,10 @@
         <h2 class="about-us-title">О Нас</h2>
         <p class="about-us-description">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас. Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
         <ul class="about-us-partners">
-          <a class="about-us-partners-item" href="#">Новая Почта</a>
-          <a class="about-us-partners-item" href="#">Интайм</a>
-          <a class="about-us-partners-item" href="#">Автолюкс</a>
-        </ul>
+          <li><a class="about-us-partners-item" href="#">Новая Почта</a></li>
+          <li><a class="about-us-partners-item" href="#">Интайм</a></li>
+          <li><a class="about-us-partners-item" href="#">Автолюкс</a></li>
+      </ul>
         <a class="about-us-more" href="#">Подробнее о нас</a>
       </section>
       <section class="contacts">
@@ -118,20 +181,25 @@
     <footer class="main-footer">
       <nav class="footer-nav">
         <img src="img/logo_footer.svg" width="162" height="36" alt="Device">
-          <li><a href=""></a></li>
-        <ul class="site-navigation-top-footer">
-          <li><a href="">Войти</a></li>
-          <li><a href=""> Сравнить</a></li>
-          <li><a href=""> Корзина</a></li>
+        <ul class="footer-navigation-top">
+          <li>
+            <a href="">Войти</a>
+            <img class="footer-icon" src="img/user.svg">
+          </li>          
+          <li><a href=""> Сравнить</a>
+          <img class="footer-icon" src="img/compare.svg">
+          </li>
+          <li><a href=""> Корзина</a>
+          <img class="footer-icon" src="img/cart.svg">
+          </li>
         </ul>
 
-        <ul class="site-navigation-bottom-footer">
+        <ul class="footer-navigation-bottom">
           <li> <a href="">Доставка</a></li>
           <li> <a href="">Гарания</a></li>
           <li> <a href="">Контакты</a></li>
         </ul>
         <ul class="social">
-          
           <li class="social-item"><a href="#">
           <img border="0" alt="facebook" src="img/facebook.svg" width="100" height="100"></a></li>
 
@@ -146,18 +214,5 @@
         </address>
       </nav>
     </footer>
-      
-
-
-
-
-
-
-
-
-
-  	
-
-
   </body>
 </html>

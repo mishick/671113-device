@@ -4,24 +4,23 @@
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
     <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
   	<header class="main-header">
   		<nav class="main-nav">
   			<img src="img/logo.svg" width="162" height="36" alt="Device">
-  				<form class="site-navigation-top" role="search">
+  				<form class="site-navigation-top" role="search" method="get">
   					<div class="search-control">
   						<input type="search" id="site-search" name="q"placeholder="Search the site..." label="Search through site content">
               <img class="header-icon" src="img/search.svg">
-  						<form method="post">
-                  <input class="visually-hidden" type="submit" value="Поиск">
+              <input class="visually-hidden" type="submit" value="Поиск">
               </form>
   					</div>
   				</form>
-  				<li><a href=""></a></li>
   			<ul class="header-navigation-top">
   				<li>
-            <a href="">Войти</a>
+            <a class="login-link" href="">Войти</a>
             <img class="header-icon" src="img/user.svg">
           </li>          
   				<li><a href=""> Сравнить</a>

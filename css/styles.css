@@ -47,42 +47,126 @@
   }
   */ 
 
-a, ul, li {
+a {
     text-decoration: none;
-    list-style: none;
 }
-body {
-    margin: 0;
-    padding: 0;
-  
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    color: #464646;
-    text-transform: none;
-  }
 
-h1, h2, h3 {
-    font-family: Gilroy;
-    font-weight: bold;
-    color:#000000;
- }
-
- a {
-    font-family: Gilroy;
-    font-weight: bold;
-    color:#000000;
-    text-transform: uppercase;
-    font-size: 1.13em;
-
- }
 
  /* Навигация*/
+
+ .header-navigation-top {
+  font-family: 'Open Sans Light', Arial, Helvetica, sans-serif;
+  text-transform: none;
+  display: flex;
+
+}
+
+.header-navigation-bottom {
+  font-family: 'Gilroy', Arial, Helvetica, sans-serif;
+  display: flex;
+
+}
+
 
  .main-nav {
     font-size: 16px;
     line-height: 20px;
     color: #000000;
     text-transform: uppercase;
-    background-color:#f7e296;
   }
+
+.header-rectangle {
+  position: relative;  
+  background-color:#f7e296;
+}
+
+.main-nav,
+.header-navigation-top,
+.header-navigation-bottom {
+  list-style: none;
+}
+
+.main-nav a,
+.header-navigation-top a,
+.header-navigation-bottom a {
+  color: #000;
+}
+
+.main-nav a:hover,
+.main-nav a:focus,
+.header-navigation-top a:hover,
+.header-navigation-top a:focus,
+.header-navigation-bottom a:hover,
+.header-navigation-bottom a:focus {
+  opacity: 0.6;
+}
+
+
+
+/* Тут будет слайдер*/
+
+
+
+/* Список фич*/
+.features-list {
+  list-style: none;
+}
+
+/* Слайдер-2*/
+
+/* Футер*/
+
+.footer-nav {
+  list-style: none;
+  background-color: #464646;
+}
+
+.social {
+  list-style: none;
+  box-align: center;
+  display: flex;
+}
+
+.footer-navigation-top {
+  font-family: 'Open Sans Light', Arial, Helvetica, sans-serif;
+  text-transform: none;
+  color: #fff;
+  display: flex;
+
+}
+
+.footer-navigation-bottom {
+  font-family: 'Gilroy', Arial, Helvetica, sans-serif;
+  display: flex;
+
+}
+
+
+ .footer-nav {
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+
+
+.footer-nav,
+.footer-navigation-top,
+.footer-navigation-bottom {
+  list-style: none;
+}
+
+.footer-nav a,
+.footer-navigation-top a,
+.footer-navigation-bottom a {
+  color: #fff;
+}
+
+.footer-nav a:hover,
+.footer-nav a:focus,
+.footer-navigation-top a:hover,
+.footer-navigation-top a:focus,
+.footer-navigation-bottom a:hover,
+.footer-navigation-bottom a:focus {
+  opacity: 0.6;
+}
+

@@ -4,24 +4,25 @@
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
     <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+    <link href="css/normalize.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">  
   </head>
   <body>
   	<header class="main-header">
   		<nav class="main-nav">
-  			<img src="img/logo.svg" width="162" height="36" alt="Device">
-  				<form class="site-navigation-top" role="search">
+          <a href="index.html"><img src="img/logo.svg" width="162" height="36" alt="Device"></a>
+  				<form class="site-navigation-top" role="search" method="get">
   					<div class="search-control">
   						<input type="search" id="site-search" name="q"placeholder="Search the site..." label="Search through site content">
               <img class="header-icon" src="img/search.svg">
-  						<form method="post">
-                  <input class="visually-hidden" type="submit" value="Поиск">
+              <input class="visually-hidden" type="submit" value="Поиск">
               </form>
   					</div>
   				</form>
-  				<li><a href=""></a></li>
   			<ul class="header-navigation-top">
   				<li>
-            <a href="">Войти</a>
+            <a class="login-link" href="">Войти</a>
             <img class="header-icon" src="img/user.svg">
           </li>          
   				<li><a href=""> Сравнить</a>
@@ -32,7 +33,7 @@
           </li>
   			</ul>
   			<ul class="header-navigation-bottom">
-  				<li><a href="">Каталог товаров</a></li>
+  				<li><a href="catalog.html">Каталог товаров</a></li>
   				<li> <a href="">Доставка</a></li>
   				<li> <a href="">Гарания</a></li>
   				<li> <a href="">Контакты</a></li>
@@ -73,8 +74,8 @@
         <!-- Slide-03-->
         <div class="mySlides fade">
           <div class="slide-number">03</div>
-          <h2 class="slide-title">Худеем правильно!</h2>
-          <h3 class="slide-description">Порхает как бабочка,жалит как пчела!</h3>
+          <h2 class="slide-title">Порхает как бабочка, жалит как пчела!</h2>
+          <h3 class="slide-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</h3>
           <img class="slide-image" src="img/slider-3.png">
           <br>
           <a href="#" class="slide-link">Подробнее</a>
@@ -159,18 +160,18 @@
         <h2 class="about-us-title">О Нас</h2>
         <p class="about-us-description">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас. Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
         <ul class="about-us-partners">
-          <li><a class="about-us-partners-item" href="#">Новая Почта</a></li>
-          <li><a class="about-us-partners-item" href="#">Интайм</a></li>
-          <li><a class="about-us-partners-item" href="#">Автолюкс</a></li>
+          <li><a class="about-us-partners-item" href="#">Деловые Линии</a></li>
+          <li><a class="about-us-partners-item" href="#">Автотрейдинг</a></li>
+          <li><a class="about-us-partners-item" href="#">ЖелДорЭкспедиция</a></li>
       </ul>
         <a class="about-us-more" href="#">Подробнее о нас</a>
       </section>
       <section class="contacts">
         <h2 class="contacts-title">Контакты</h2>
         <p class="contacts-description">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-
-        <div class="contacts-map" id="map" style="width:560px;height:220px;background:gray">
-
+        <div class="contacts-map">
+          <img src="img/map.jpg" width="560" height="220" alt="Офис компании по адресу г. Москва, ул. Строителей, 15">
+        </div>
         <a class="contact-us" href="#">Напишите нам</a>
       </section>
     </main>
@@ -190,7 +191,6 @@
           <img class="footer-icon" src="img/cart.svg">
           </li>
         </ul>
-
         <ul class="footer-navigation-bottom">
           <li> <a href="">Доставка</a></li>
           <li> <a href="">Гарания</a></li>
@@ -198,12 +198,14 @@
         </ul>
         <ul class="social">
           <li class="social-item"><a href="#">
-          <img border="0" alt="facebook" src="img/facebook.svg" width="100" height="100"></a></li>
-
+            <img border="0" alt="facebook" src="img/facebook.svg" width="100" height="100"></a>
+          </li>
           <li class="social-item">
-          <img border="0" alt="twitter" src="img/twiter.svg" width="100" height="100"></a></li>
-
-          <li class="social-item"> <img border="0" alt="instagram" src="img/instagram.svg" width="100" height="100"></a></li>
+            <img border="0" alt="twitter" src="img/twiter.svg" width="100" height="100"></a>
+          </li>
+          <li class="social-item"> 
+            <img border="0" alt="instagram" src="img/instagram.svg" width="100" height="100"></a>
+          </li>
         </ul> 
         <a href="tel:Тел.: +7 (495) 495-95-95">Тел.: +7 (495) 495-95-95</a>
         <address>

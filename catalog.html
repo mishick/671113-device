@@ -69,7 +69,7 @@
         <nav>
       </header>
       <section class="sort-header">
-        <h2>Сортировка:</h2>
+        <h2 class="filter-title">Сортировка:</h2>
         <ul class="sort-header-filter">
           <li><a href="#">По новизне</a></li>
           <li><a href="#">По типу</a></li></li>
@@ -86,7 +86,7 @@
             <legend>Стоимость</legend>
             <ul>
               <li>
-                <input class="side-rannge-filter" type="range" min="350" max="10000" value="150"  id="priceRange name="radio"">
+                <input class="side-range-filter" type="range" min="350" max="10000" value="150"  id="priceRange name="radio"">
               </li>
             </ul>
           </fieldset>
@@ -138,6 +138,7 @@
                 <span class="catalog-item-title">Любительская селфи-палка</span>
               </h3>
               <p class="catalog-item-image">
+                <a href="#" class="catalog-item-link">В Корзину </a>
                 <img src="img/item-1.jpg" width="360" height="380" alt="Любительская селфи-палка">
               </p>
             </a>
@@ -151,6 +152,7 @@
                   <span class="catalog-item-title">Профессиональная селфи-палка</span>
                 </h3>
                 <p class="catalog-item-image">
+                  <a href="#" class="catalog-item-link">В Корзину </a>
                   <img src="img/item-2.jpg" width="360" height="380" alt="Профессиональная селфи-палка">                   
                 </p>
               </a>
@@ -164,6 +166,7 @@
                 <span class="catalog-item-title">Непотопляемая селфи-палка</span>
               </h3>
               <p class="catalog-item-image">
+                <a href="#" class="catalog-item-link">В Корзину </a>
                 <img src="img/item-3.jpg" width="360" height="380" alt="Непотопляемая селфи-палка">
               </p>
             </a>
@@ -177,7 +180,9 @@
                 <span class="catalog-item-title">Селфи-палка «Следуй за мной»</span>
               </h3>
               <p class="catalog-item-image">
-                <img src="img/item-3.jpg" width="360" height="380" alt="Непотопляемая селфи-палка">
+                <a href="#" class="catalog-item-link">В Корзину
+                </a>
+                <img class="catalog-item-image" src="img/item-4.jpg" width="360" height="380" alt="Непотопляемая селфи-палка">
               </p>
             </a>
             <p class="catalog-item-price">
@@ -187,10 +192,12 @@
         </ul>
       <section>
         <ul class="pagination-list">
+          <a href="" class="pagination-link">Назад</a>
           <li class="pagination-item"><a href="#">1</a></li>
           <li class="pagination-item pagination-item-current"><a>2</a></li>
           <li class="pagination-item"><a href="#">3</a></li>
           <li class="pagination-item"><a href="#">4</a></li>
+          <a href="" class="pagination-link">Вперед</a>
         </ul>
       </section>
     </main>
@@ -205,19 +212,19 @@
           <ul class="footer-navigation-top">
             <li>
               <a href="">
-                <img class="footer-icon" src="img/user.svg">
+                <img class="footer-icon" src="img/ic_user_footer.svg">
                 Войти
               </a>
             </li>          
             <li>
               <a href="">
-                <img class="footer-icon" src="img/compare.svg">
+                <img class="footer-icon" src="img/ic_compare_footer.svg">
                 Сравнить
               </a>
             </li>
             <li>
               <a href="">
-                <img class="footer-icon" src="img/cart.svg">
+                <img class="footer-icon" src="img/ic_cart_footer.svg">
                 Корзина
               </a>
             </li>

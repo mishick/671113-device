@@ -1,38 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
-  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
-   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-      <rdf:Description rdf:about=""/>
-   </rdf:RDF>
-</x:xmpmeta>
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                           
-<?xpacket end="w"?></metadata>
-<defs>
-    <style>
-      .cls-1 {
-        opacity: 0.3;
-      }
-    </style>
-  </defs>
-  <image id="facebook" class="cls-1" width="32" height="32" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfiCBEEOR/LCEOBAAABc0lEQVRIx62VsWvCUBCHv3t9OigKBSk6CcXJbgXBqV269v/t3EkQHDp0EopQ0EEoJJjBPHMdjGL1JRrTmx65+33v7vK4EzymVdq0aFDDAo6IkCULWZ/Gyom4SY8OxsNNmDOVIAeglj5d8m3GpzgvQBsMqHPeVowlPAHoLUPsBXIAx0h+tkezv/1yOViG2jjIQC1PGcnPmBID8HJ0wYp3cbsM+hnyb/mQSGKJJUaPfHX6aQnazOz8V24hXW2CBXo5/Qb0AYAbj7/HxGqVzpmW3Wd6Olo1tL2v7jIztC0tr8sdNG37FyreuJboM02P403ivx/01QsIDLWrCwComQLvz2c2S/6oCTCRDeggl4Dz5nAHgGEDtHP0zhCVKiEyhKUAoWFZCrA0LEiulicsjKyZXw2Yy9oA06sBUzAgAbOMAKsVrWTKZxKcH2nZdjjSxDHGFZI7xtvtkM4CCRkVQDhGu83wf4sl7UWZ1ZZCyizXPaTAev8F8Ix6TlFxD0IAAAAASUVORK5CYII="/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Social_icons" transform="translate(-61.000000, -560.000000)" fill="#A7A7A7">
+            <g id="White" transform="translate(60.000000, 560.000000)">
+                <g id="Facebook" transform="translate(1.000000, 0.000000)">
+                    <path d="M0,30 C0,13.4314567 13.4314567,0 30,0 C46.5685433,0 60,13.4314567 60,30 C60,46.5685433 46.5685433,60 30,60 C13.4314567,60 0,46.5685433 0,30 Z M32.1269439,46.6393459 L32.1269439,30.317762 L36.6324148,30.317762 L37.229487,24.6932538 L32.1269439,24.6932538 L32.1345986,21.8781333 C32.1345986,20.411175 32.2739793,19.6251452 34.3809551,19.6251452 L37.1975921,19.6251452 L37.1975921,14 L32.6914833,14 C27.2789219,14 25.3738406,16.7284916 25.3738406,21.3169565 L25.3738406,24.6938908 L22,24.6938908 L22,30.318399 L25.3738406,30.318399 L25.3738406,46.6393459 L32.1269439,46.6393459 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>

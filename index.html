@@ -10,6 +10,7 @@
   </head>
   <body>
   	<header class="main-header">
+      <div class="header-rectangle">
   		<nav class="main-nav">
           <a href="index.html"><img src="img/logo.svg" width="162" height="36" alt="Device"></a>
   				<form class="site-navigation-top" role="search" method="get">
@@ -22,14 +23,22 @@
   				</form>
   			<ul class="header-navigation-top">
   				<li>
-            <a class="login-link" href="">Войти</a>
-            <img class="header-icon" src="img/user.svg">
+            <a class="login-link" href="">
+              <img src="img/user.svg">
+              Войти
+            </a>
           </li>          
-  				<li><a href=""> Сравнить</a>
-          <img class="header-icon" src="img/compare.svg">
+  				<li>
+            <a href="">
+              <img src="img/compare.svg">
+            Сравнить
+            </a>
           </li>
-  				<li><a href=""> Корзина</a>
-          <img class="header-icon" src="img/cart.svg">
+  				<li>
+            <a href="">
+              <img src="img/cart.svg">
+              Корзина
+            </a>
           </li>
   			</ul>
   			<ul class="header-navigation-bottom">
@@ -37,7 +46,8 @@
   				<li> <a href="">Доставка</a></li>
   				<li> <a href="">Гарания</a></li>
   				<li> <a href="">Контакты</a></li>
-  			</ul>
+        </ul>
+      </div>  
   		</nav>
   	</header>
   	<main class="container">
@@ -47,7 +57,9 @@
         <div class="mySlides fade">
           <div class="slide-number">01</div>
           <h2 class="slide-title">Делай селфи, как Бен Стиллер!</h2>
-          <h3 class="slide-description">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</h3>
+          <p class="slide-description">
+            Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
+          </p>
           <img class="slide-image" src="img/slider-1.png">
           <a href="#" class="slide-link">Подробнее</a>
           <table class="slide-feature-lest">
@@ -63,7 +75,7 @@
         <div class="mySlides fade">
           <div class="slide-number">02</div>
           <h2 class="slide-title">Худеем правильно!</h2>
-          <h3 class="slide-description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</h3>
+          <p class="slide-description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
           <img class="slide-image" src="img/slider-2.png">
           <a href="#" class="slide-link">Подробнее</a>
           <table class="slide-feature-lest">
@@ -75,11 +87,9 @@
         <div class="mySlides fade">
           <div class="slide-number">03</div>
           <h2 class="slide-title">Порхает как бабочка, жалит как пчела!</h2>
-          <h3 class="slide-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</h3>
+          <p class="slide-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
           <img class="slide-image" src="img/slider-3.png">
-          <br>
           <a href="#" class="slide-link">Подробнее</a>
-          <br>
           <table class="slide-feature-lest">
             <tr>800м</tr>
             <tr>50м</tr>
@@ -178,39 +188,58 @@
 
     <footer class="main-footer">
       <nav class="footer-nav">
-        <img src="img/logo_footer.svg" width="162" height="36" alt="Device">
+        <a href="index.html" class="footer-logo">
+          <img src="img/logo_footer.svg" width="162" height="36" alt="Device">
+        </a>
         <ul class="footer-navigation-top">
           <li>
-            <a href="">Войти</a>
-            <img class="footer-icon" src="img/user.svg">
+            <a href="">
+              <img class="footer-icon" src="img/ic_user_footer.svg">
+              Войти
+            </a>
           </li>          
-          <li><a href=""> Сравнить</a>
-          <img class="footer-icon" src="img/compare.svg">
+          <li>
+            <a href="">
+              <img class="footer-icon" src="img/ic_compare_footer.svg">
+              Сравнить
+            </a>
           </li>
-          <li><a href=""> Корзина</a>
-          <img class="footer-icon" src="img/cart.svg">
+          <li>
+            <a href="">
+              <img class="footer-icon" src="img/ic_cart_footer.svg">
+              Корзина
+            </a>
           </li>
         </ul>
         <ul class="footer-navigation-bottom">
-          <li> <a href="">Доставка</a></li>
-          <li> <a href="">Гарания</a></li>
-          <li> <a href="">Контакты</a></li>
+          <li> 
+            <a href="">Доставка</a>
+          </li>
+          <li>
+            <a href="">Гарания</a>
+          </li>
+          <li> 
+            <a href="">Контакты</a>
+          </li>
         </ul>
         <ul class="social">
-          <li class="social-item"><a href="#">
-            <img border="0" alt="facebook" src="img/facebook.svg" width="100" height="100"></a>
+          <li class="social-item">
+            s<a href="#">
+              <img border="0" alt="facebook" src="img/facebook.svg" width="34" height="34">
+            </a>
           </li>
           <li class="social-item">
-            <img border="0" alt="twitter" src="img/twiter.svg" width="100" height="100"></a>
+            <a href="#">
+              <img border="0" alt="twitter" src="img/twitter.svg" width="34" height="34">
+            </a>
           </li>
           <li class="social-item"> 
-            <img border="0" alt="instagram" src="img/instagram.svg" width="100" height="100"></a>
+            <a href="#">
+              <img border="0" alt="instagram" src="img/instagram.svg" width="34" height="34">
+            </a>
           </li>
         </ul> 
         <a href="tel:Тел.: +7 (495) 495-95-95">Тел.: +7 (495) 495-95-95</a>
-        <address>
-            г. Москва, ул. Строителей, 15
-        </address>
       </nav>
     </footer>
   </body>

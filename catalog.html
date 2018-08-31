@@ -9,47 +9,78 @@
         <link href="css/normalize.css" rel="stylesheet">
       </head>
       <body>
-        <header class="main-header">
-          <div class="header-rectangle">
-          <nav class="main-nav">
-            <a href="index.html"><img src="img/logo.svg" width="162" height="36" alt="Device"></a>
-              <form class="site-navigation-top" role="search" method="get">
-                <div class="search-control">
-                  <input type="search" id="site-search" name="q"placeholder="Search the site..." label="Search through site content">
-                  <img class="header-icon" src="img/search.svg">
-                  <input class="visually-hidden" type="submit" value="Поиск">
+          <header class="main-header container">
+              <a class="logo" href="index.html">
+                  <img src="img/logo.svg" alt="Device" width="164" height="36">
+              </a>
+              <div class="index-columns">
+                  <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
+                      <label class="search-label visually-hidden" for="search-form">Поиск</label>
+                      <input class="search-form-hidden" type="search" name="search" placeholder="Поиск по сайту" id="search-form">
+                      <button class="search-form-hidden search-btn" type="submit">Найти</button>
                   </form>
-                </div>
-              </form>
-            <ul class="header-navigation-top">
-              <li>
-                <a class="login-link" href="">
-                  <img src="img/user.svg">
-                    Войти
-                </a>
-              </li>          
-              <li>
-                <a href="">
-                  <img src="img/compare.svg">
-                  Сравнить
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <img src="img/cart.svg">
-                    Корзина
-                </a>
-              </li>
-            </ul>
-            <ul class="header-navigation-bottom">
-              <li><a href="catalog.html">Каталог товаров</a></li>
-              <li> <a href="">Доставка</a></li>
-              <li> <a href="">Гарания</a></li>
-              <li> <a href="">Контакты</a></li>
-            </ul>
-          </div>
-          </nav>
-        </header>
+                  <div class="user-block">
+                      <ul class="user-block-left">
+                          <li>
+                              <a class="login" href="#">Войти</a>
+                          </li>
+                      </ul>
+                      <ul class="user-block-right">
+                          <li>
+                              <a class="compare" href="#">Сравнить</a>
+                          </li>
+                          <li>
+                              <a class="cart" href="#">Корзина</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              
+              <nav class="main-navigation">
+                  <ul class="site-navigation">
+                      <li class="menu-item menu-item-submenu">
+                          <a class="index-catalog" href="monopod.html">Каталог товаров</a>
+                          <div class="submenu">
+                              <ul>
+                                  <li class="submenu-item">
+                                      <a href="monopod.html">Виртуальная реальность</a>
+                                  </li>
+                                  <li class="submenu-item">
+                                      <a href="monopod.html">Моноподы для селфи</a>
+                                  </li>
+                                  <li class="submenu-item">
+                                      <a href="monopod.html">Экшн-камеры</a>
+                                  </li>
+                              </ul>
+                              <ul>
+                                  <li class="submenu-item">
+                                      <a href="monopod.html">Фитнес-браслеты</a>
+                                  </li>
+                                  <li class="submenu-item">
+                                      <a href="monopod.html">Умные часы</a>
+                                  </li>
+                              </ul>
+                              <ul>
+                                  <li class="submenu-item">
+                                      <a href="monopod.html">Квадрокоптеры</a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </li>
+                  </ul>
+                  <ul class="site-navigation site-navigation-right">
+                      <li class="menu-item menu-item-delivery">
+                          <a href="#">Доставка</a>
+                      </li>
+                      <li class="menu-item menu-item-guarantee">
+                          <a href="#">Гарантия</a>
+                      </li>
+                      <li class="menu-item menu-item-contacts">
+                          <a href="#">Контакты</a>
+                      </li>
+                  </ul>
+              </nav>
+          </header>
     <!-- Sub-header-->
   	<main class="container">
       <header class="sub-header">

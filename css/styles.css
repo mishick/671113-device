@@ -494,14 +494,14 @@ input[type='radio'].visually-hidden {
 .slide-description .slide-promo-description {
   font-family: 'Open Sans Light', 'Arial', sans-serif;
   width: 490px;
-  margin-bottom: 43px;
+  margin-bottom: 40px;
 }
+
 
 .slide-description .btn {
-  margin-bottom: 49px;
-  padding: 8px 42px;
+  margin-bottom: 40px;
+  padding: 8px 40px;
 }
-
 .slide-description .custom-table-1 {
   border-collapse: collapse;
 }
@@ -511,7 +511,7 @@ input[type='radio'].visually-hidden {
   font-size: 36px;
   font-weight: normal;
   line-height: 48px;
-  padding-bottom: 6px;
+  padding-bottom: 0px;
 }
 
 .slide-description th:first-child,
@@ -551,7 +551,7 @@ input[type='radio'].visually-hidden {
   margin-right: 0;
 }
 
-.slider-top .slide-link {
+.slider-top .slides-switches {
   font-size: 0;
   position: relative;
   display: inline-block;
@@ -585,14 +585,14 @@ input[type='radio'].visually-hidden {
 
 
 
-
-
 .slide-link {
   font-family: Gilroy;
   font-weight: bold;
   font-size: 18px;
   text-transform: uppercase;
   padding: 15px 45px;
+  display: inline-block;
+  position: relative;
 }
 
 .slide-link {
@@ -608,6 +608,14 @@ input[type='radio'].visually-hidden {
 .slide-link:active {
   color: #be9c22;
 }
+
+.slide-link {
+  position: relative;
+  top: 100px;
+
+}
+
+
 /*------------------------------------ End Slider----------------------------------*/
 
 /* Список фич*/

@@ -7,68 +7,68 @@
     <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
     <link href="css/normalize.css" rel="stylesheet"> 
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style-normal.css">
+    <link rel="stylesheet" href="css/normalize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">  
   </head>
   <body>
-    <header class="main-header container">
-      <a class="logo" href="index.html">
-        <img src="img/logo.svg" alt="Device" width="164" height="36" alt="logo">
-      </a>
-        <div class="index-columns">
-          <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-            <label class="search-label visually-hidden" for="search-form">Поиск</label>
-            <input class="search-form-hidden" type="search" name="search" placeholder="Поиск по сайту" id="search-form">
-            <button class="search-form-hidden search-btn" type="submit">Найти</button>
-          </form>
-            <div class="user-block">
-              <ul class="user-block-left">
-                <li>
-                  <a class="login" href="#">
-                    <img src="img/user.svg" alt="user">
-                    Войти
-                  </a>
-                </li>
-              </ul>
-              <ul class="user-block-right">
-                <li>
-                  <a class="compare" href="#">Сравнить</a>
-                </li>
-                <li>
-                  <a class="cart" href="#">Корзина</a>
-                </li>
-              </ul>
-            </div>
-        </div>
-        <nav class="main-navigation">
-          <ul class="site-navigation">
-            <li class="menu-item menu-item-submenu">
-                <a class="index-catalog" href="catalog.html">Каталог товаров</a>
-                <div class="submenu">
-                  <ul>
-                    <li class="submenu-item">
-                      <a href="#">Виртуальная реальность</a>
-                    </li>
-                    <li class="submenu-item">
-                      <a href="#">Моноподы для селфи</a>
-                    </li>
-                    <li class="submenu-item">
-                      <a href="#">Экшн-камеры</a>
-                    </li>
-                    </ul>
-                    <ul>
-                      <li class="submenu-item">
-                        <a href="#">Фитнес-браслеты</a>
-                      </li>
-                      <li class="submenu-item">
-                        <a href="#">Умные часы</a>
-                      </li>
-                    </ul>
-                    <ul>
-                      <li class="submenu-item">
-                        <a href="#">Квадрокоптеры</a>
+      <header class="main-header container">
+          <a class="logo">
+              <img src="img/logo.svg" alt="Device" width="164" height="36">
+          </a>
+          <div class="index-columns">
+              <form class="search-form" action="#" method="get">
+                  <label class="search-label visually-hidden" for="search-form">Поиск</label>
+                  <input class="search-form-hidden" type="search" name="search" placeholder="Поиск по сайту" id="search-form">
+                  <button class="search-form-hidden search-btn" type="submit">Найти</button>
+              </form>
+              <div class="user-block">
+                  <ul class="user-block-left">
+                      <li>
+                          <a class="login" href="#">Войти</a>
                       </li>
                   </ul>
-                </div>
+                  <ul class="user-block-right">
+                      <li>
+                          <a class="compare" href="#">Сравнить</a>
+                      </li>
+                      <li>
+                          <a class="cart" href="#">Корзина</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+  
+          <nav class="main-navigation">
+              <ul class="site-navigation">
+                  <li class="menu-item menu-item-submenu">
+                      <a class="index-catalog" href="catalog.html">Каталог товаров</a>
+                      <div class="submenu">
+                          <ul>
+                              <li class="submenu-item">
+                                  <a href="#">Виртуальная реальность</a>
+                              </li>
+                              <li class="submenu-item">
+                                  <a href="#">Моноподы для селфи</a>
+                              </li>
+                              <li class="submenu-item">
+                                  <a href="#">Экшн-камеры</a>
+                              </li>
+                          </ul>
+                          <ul>
+                              <li class="submenu-item">
+                                  <a href="#>Фитнес-браслеты</a>
+                              </li>
+                              <li class="submenu-item">
+                                  <a href="#">Умные часы</a>
+                              </li>
+                          </ul>
+                          <ul>
+                              <li class="submenu-item">
+                                  <a href="#">Квадрокоптеры</a>
+                              </li>
+                          </ul>
+                      </div>
                   </li>
               </ul>
               <ul class="site-navigation site-navigation-right">
@@ -84,9 +84,8 @@
               </ul>
           </nav>
       </header>
-      <div class="container ">
+      <div class="container">
           <h1 class="visually-hidden">Магазин техники «Device»</h1>
-
           <section class="slider-top">
               <h2 class="visually-hidden">Лучшие товары</h2>
               <ol class="slides">
@@ -172,6 +171,9 @@
                   </li>
               </ul>
           </section>
+
+
+          
           <section class="catalog">
               <h2 class="visually-hidden">Каталог товаров</h2>
               <ul class="catalog-list">
@@ -227,45 +229,44 @@
               </ul>
           </section>
       </div>
-
-
       <div class="services-wrapper">
-            <div class="container">
-                <section class="services">
-                    <h2 class="visually-hidden">Сервисы</h2>
-                    <ul class="services-switches">
-                        <li class="services-switches-active">
-                            <button class="btn-services btn-services-active" data-for="delivery">Доставка</button>
-                        </li>
-                        <li>
-                            <button class="btn-services-garantee" data-for="warranty">Гарантия</button>
-                        </li>
-                        <li>
-                            <button class="btn-services-credit" data-for="credit">Кредит</button>
-                        </li>
-                    </ul>
-                    <ul class="services-slides">
-                        <li class="slide-content delivery services-slide-visible">
-                            <h3>Доставка</h3>
-                            <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо
-                                заработаем, поднимая его на ваш этаж.</p>
-                        </li>
-                        <li class="slide-content warranty services-slide-hidden">
-                            <h3>Гарантия</h3>
-                            <p>Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам
-                                новый. Товар, не дом, конечно же.</p>
-                        </li>
-                        <li class="slide-content credit services-slide-hidden">
-                            <h3>Кредит</h3>
-                            <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные
-                                условия кредита. Выгодные для нашего банка, разумеется.</p>
-                        </li>
-                    </ul>
-                </section>
-            </div>
-        </div>
+          <div class="container">
+              <section class="services">
+                  <h2 class="visually-hidden">Сервисы</h2>
+                  <ul class="services-switches">
+                      <li class="services-switches-active">
+                          <button class="btn-services btn-services-active" data-for="delivery">Доставка</button>
+                      </li>
+                      <li>
+                          <button class="btn btn-services" data-for="warranty">Гарантия</button>
+                      </li>
+                      <li>
+                          <button class="btn btn-services" data-for="credit">Кредит</button>
+                      </li>
+                  </ul>
+                  <ul class="services-slides">
+                      <li class="slide-content delivery services-slide-visible">
+                          <h3>Доставка</h3>
+                          <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо
+                              заработаем, поднимая его на ваш этаж.</p>
+                      </li>
+                      <li class="slide-content warranty services-slide-hidden">
+                          <h3>Гарантия</h3>
+                          <p>Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам
+                              новый. Товар, не дом, конечно же.</p>
+                      </li>
+                      <li class="slide-content credit services-slide-hidden">
+                          <h3>Кредит</h3>
+                          <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные
+                              условия кредита. Выгодные для нашего банка, разумеется.</p>
+                      </li>
+                  </ul>
+              </section>
+          </div>
+      </div>
 
-      <section class="brands">
+
+        <section class="brands container">
         <ul class="brands-list">
           <li class="brand-item">
             <a href="#" class="brand-link dji">
@@ -329,7 +330,6 @@
                   <ul class="user-block-left">
                       <li>
                           <a class="login" href="#">
-                            <img src="img/ic_user_footer.svg" width="12" height="12">
                             Войти
                           </a>
                       </li>

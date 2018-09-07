@@ -1116,11 +1116,11 @@ input[type='radio'].visually-hidden {
 /*---------------------------End of Slider-2-----------------------------*/
 
 
-.brands container{
+.partners {
   margin-bottom: 84px;
 }
 
-.brands .brands-list {
+.partners .partners-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1134,17 +1134,16 @@ input[type='radio'].visually-hidden {
   flex-wrap: wrap;
 }
 
-.brands .brand-item {
+.partners .partners-item {
   position: relative;
 }
 
-.brands img {
+.partners img {
   position: relative;
   opacity: .2;
-  margin-bottom: 100px;
 }
 
-.brand-link::before {
+.partner-link::before {
   position: absolute;
   width: 260px;
   height: 100px;

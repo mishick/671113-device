@@ -1184,6 +1184,124 @@ input[type='radio'].visually-hidden {
   fill: #7e6d31;
 }
 
+/*---------------------------End of Slider-2-----------------------------*/
+
+.partners {
+  margin-bottom: 84px;
+}
+
+.partners .partners-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.partners .partners-item {
+  position: relative;
+}
+
+.partners img {
+  position: relative;
+  opacity: .2;
+}
+
+.partner-link::before {
+  position: absolute;
+  width: 260px;
+  height: 100px;
+  content: '';
+  opacity: 0;
+}
+
+.dji::before {
+  background-image: url('../img/logo-1.jpg');
+}
+
+.sp-gadget::before {
+  background-image: url('../img/logo-2.jpg');
+}
+
+.go-pro::before {
+  background-image: url('../img/logo-3.jpg');
+}
+
+.vive::before {
+  background-image: url('../img/logo-4.jpg');
+}
+
+.brands .brand-item:hover .brand-link::before,
+.brands .brand-item:focus .brand-link::before {
+  opacity: 1;
+}
+
+/*---------------------------------Contacts-----------------------------*/
+
+
+.main-content .contact-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 52px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.contact-info .about-us {
+  max-width: 475px;
+}
+
+.contact-info h2 {
+  font-family: 'Gilroy ExtraBold', 'Arial', sans-serif;
+  font-size: 47px;
+  line-height: 48px;
+  position: relative;
+  margin: 0;
+  margin-bottom: 43px;
+  padding: 0;
+}
+
+.contact-info h2::before {
+  position: absolute;
+  top: -52px;
+  width: 80px;
+  height: 7px;
+  content: '';
+  background-color: #000;
+}
+
+.contact-info p {
+  font-family: 'Open Sans Light', 'Arial', sans-serif;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  letter-spacing: normal;
+}
+
+.contact-info ul {
+  font-family: 'Gilroy ExtraBold', 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  margin: 0;
+  margin-top: 66px;
+  margin-bottom: 54px;
+  padding: 0 36px;
+  list-style: none;
+  letter-spacing: normal;
+}
+
+.contact-info li {
+  position: relative;
+}
+
 /* ===============================
       ======== МОДАЛЬНЫЕ ОКНА ==========
       =============================== */

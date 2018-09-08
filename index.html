@@ -3,13 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
-    <script src="js/script.min.js"></script>
-    <script src="js/script.js"></script> 
-    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
-    <link href="css/normalize.css" rel="stylesheet"> 
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/style-normal.css">
+    <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">  
   </head>
   <body>
@@ -47,7 +43,7 @@
                       <div class="submenu">
                           <ul>
                               <li class="submenu-item">
-                                  <a href="catalog.html">Виртуальная реальность</a>
+                                  <a href="#">Виртуальная реальность</a>
                               </li>
                               <li class="submenu-item">
                                   <a href="catalog.html">Моноподы для селфи</a>
@@ -59,7 +55,7 @@
                           <ul>
                               <li class="submenu-item">
                                   <a href="catalog.html">Фитнес-браслеты</a>
-                              </li>        
+                              </li>
                               <li class="submenu-item">
                                   <a href="catalog.html">Умные часы</a>
                               </li>
@@ -74,17 +70,18 @@
               </ul>
               <ul class="site-navigation site-navigation-right">
                   <li class="menu-item menu-item-delivery">
-                      <a href="catalog.html">Доставка</a>
+                      <a href="#">Доставка</a>
                   </li>
                   <li class="menu-item menu-item-guarantee">
-                      <a href="catalog.html">Гарантия</a>
+                      <a href="#">Гарантия</a>
                   </li>
                   <li class="menu-item menu-item-contacts">
-                      <a href="catalog.html">Контакты</a>
+                      <a href="#">Контакты</a>
                   </li>
               </ul>
           </nav>
       </header>
+  <main class="main-content">
       <div class="container">
           <h1 class="visually-hidden">Магазин техники «Device»</h1>
           <section class="slider-top">
@@ -265,34 +262,31 @@
               </section>
           </div>
       </div>
-
-
-        <section class="brands container">
-        <ul class="brands-list">
-          <li class="brand-item">
-            <a href="#" class="brand-link dji">
-              <img src="img/logo-1-gray.png" alt="DJI" width="260" height="100">
-            </a>
-          </li>
-          <li class="brand-item">
-            <a href="#" class="brand-link sp-gadget">
-              <img src="img/logo-2-gray.png" alt="SP Gadget" width="260" height="100">
-            </a>
-          </li>
-
-          <li class="brand-item">
-            <a class="brand-link go-pro">
-              <img src="img/logo-3-gray.png" alt="GoPro" width="260" height="100">
-            </a>
-          </li>
-
-          <li class="brand-item">
-            <a href="" class="brand-link vive">
-              <img src="img/logo-4-gray.png" alt="Vive" width="260" height="100">
-            </a>
-          </li>
+      <section class="partners container">
+        <h2 class="visually-hidden">Наши партнёры</h2>
+        <ul class="partners-list">
+            <li class="partners-item">
+                <a class="partner-link dji" href="#">
+                    <img src="img/logo-1a.png" alt="DJI" width="260" height="100">
+                </a>
+            </li>
+            <li class="partners-item">
+                <a class="partner-link spgadgets" href="#">
+                    <img src="img/logo-2a.png" alt="SP Gadgets" width="260" height="100">
+                </a>
+            </li>
+            <li class="partners-item">
+                <a class="partner-link gopro" href="#">
+                    <img src="img/logo-3a.png" alt="GoPro" width="260" height="100">
+                </a>
+            </li>
+            <li class="partners-item">
+                <a class="partner-link vive" href="#">
+                    <img src="img/logo-4a.png" alt="Vive" width="260" height="100">
+                </a>
+            </li>
         </ul>
-      </section>
+    </section>
       <br>
       <div class="contact-info container">
           <section class="about-us">
@@ -312,7 +306,7 @@
                   Всякое бывает.</p>
               <div class="map">
                   <a href="#" class="map-link">
-                      <img src="img/map.jpg" alt="Карта">
+                      <img src="img/map.jpg" alt="Карта"  width="560" height="222">
                   </a>
               </div>
               <a class="btn contacts-link" href="#">Напишите нам</a>
@@ -329,21 +323,21 @@
                   <ul class="user-block-left">
                       <li>
                           <a class="login" href="#">
+                            <img src="img/ic_user_footer.svg" width="12" height="12" alt="user">
                             Войти
                           </a>
                       </li>
                   </ul>
                   <ul class="user-block-right">
                       <li>
-                          
                           <a class="compare" href="#">
-                              <img src="img/ic_compare_footer.svg" width="12" height="12">
+                              <img src="img/ic_compare_footer.svg" width="12" height="12" alt="compare">
                             Сравнить 
                           </a>
                       </li>
                       <li>
                           <a class="cart" href="#">
-                            <img src="img/ic_cart_footer.svg" width="12" height="12">
+                            <img src="img/ic_cart_footer.svg" width="12" height="12" alt="cart">
                             Корзина
                           </a>
                       </li>
@@ -435,7 +429,8 @@
               </div>
           </div>
       </div>
-   </footer>
- </body>
-  
+  </footer>
+  <script src="js/script.min.js"></script>
+  </body>
+ 
 </html>

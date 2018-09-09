@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
-   <head>
-        <meta charset="utf-8">
-        <title>HTML Academy: Девайс</title>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"> 
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/style-normal.css"> 
-      </head> 
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Девайс</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">  
+  </head>
   <body>
       <header class="main-header container">
           <a class="logo">
@@ -117,8 +118,7 @@
                       </div>
                       <div class="slide-description">
                           <span class="slide-number">02</span>
-                          <p class="slide-promo">Худеем
-                              <br>правильно!</p>
+                          <p class="slide-promo">Худеем правильно!</p>
                           <p class="slide-promo-description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
                           <a class="btn" href="#">Подробнее</a>
                           <table>
@@ -428,7 +428,35 @@
               </div>
           </div>
       </div>
-  </footer>
-  <script src="js/script.min.js"></script>
+    </footer>
+     <section class="modal modal-map">
+     <h2 class="visually-hidden">Как до нас добраться</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.112374947382!2d37.52742931619592!3d55.68703400452955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsIDExOTMxMQ!5e0!3m2!1sru!2sru!4v1522479628210"
+         allowfullscreen>
+      </iframe>
+       <button class="modal-close" type="button">Закрыть</button>
+    </section>
+
+    <section class="modal modal-wtite-us">
+        <h2 class="visually-hidden">Письмо</h2>
+        <form class="modal-wtite-us-form" action="https://echo.htmlacademy.ru" method="post">
+            <label class="modal-wtite-us-label name" for="modal-name">Ваше имя:
+                <input type="text" name="name" placeholder="Имя Фамилия" id="modal-name">
+            </label>
+            <label class="modal-wtite-us-label email" for="modal-email">Ваш e-mail:
+                <input type="email" name="email" placeholder="email@example.com" id="modal-email">
+            </label>
+            <label class="modal-wtite-us-label letter" for="modal-letter">Текст письма:
+             <textarea name="letter" placeholder="В свободной форме" id="modal-letter"></textarea>
+            </label>
+            <button class="btn" type="submit">Отправить</button>
+            <button class="modal-close" type="button">Закрыть</button>
+        </form>
+    </section>
+<script src="js/script.min.js"></script>
+
+
   </body>
+
+ 
 </html>

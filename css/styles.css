@@ -1216,7 +1216,7 @@ input[type='radio'].visually-hidden {
 }
 
 .modal-map {
-  top: 120px;
+  top: 50px;
   left: 50%;
   display: none;
   width: 960px;
@@ -1235,7 +1235,7 @@ input[type='radio'].visually-hidden {
 }
 
 .modal-wtite-us {
-  top: 120px;
+  top: 50px;
   left: 50%;
   display: none;
   width: 960px;

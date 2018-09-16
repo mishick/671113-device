@@ -7,14 +7,14 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"> 
-      </head>  
-<body class="inner-page">
-    <header class="main-header main-header-inner container">
+    </head>  
+    <body class="inner-page">
+        <header class="main-header main-header-inner container">
         <a class="logo" href="index.html">
-            <img src="img/logo.svg" alt="Device" width="164" height="36">
+            <h1 class="logo">Device</h1>
         </a>
         <div class="index-columns">
-            <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
+            <form class="search-form" action="#" method="get">
                 <label class="search-label visually-hidden" for="search-form">Поиск</label>
                 <input class="search-form-hidden" type="search" name="search" placeholder="Поиск по сайту" id="search-form">
                 <button class="search-form-hidden search-btn" type="submit">Найти</button>
@@ -82,9 +82,8 @@
                 </li>
             </ul>
         </nav>
-    </header>
-
-    <main class="main-content">
+        </header>
+        <main class="main-content">
         <div class="inner-content page-info container">
             <h1 class="main-title">Моноподы для селфи</h1>
             <ul class="breadcrumbs">
@@ -97,14 +96,12 @@
                 <li class="breadcrumbs-current">Моноподы для селфи</li>
             </ul>
         </div>
-
         <div class="catalog-inner-wrapper">
-
             <section class="catalog-inner-left-side filters">
                 <div class="catalog-inner-left-side-content filters">
                     <h2 class="filters-top">Фильтр:</h2>
                     <div class="filters-bottom">
-                        <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+                        <form class="filter" method="get" action="#">
                             <fieldset class="filter-price">
                                 <legend class="filter-title">Стоимость</legend>
                                 <div class="range-controls">
@@ -159,8 +156,6 @@
                     </div>
                 </div>
             </section>
-
-
             <div class="catalog-inner-right-side">
                 <div class="catalog-inner-right-side-content">
                     <section class="sorting">
@@ -278,8 +273,8 @@
                 </div>
             </div>
         </div>
-    </main>
-    <footer class="main-footer">
+        </main>
+        <footer class="main-footer">
         <div class="container">
             <div class="main-footer-top">
                 <a class="logo" href="index.html">
@@ -288,18 +283,28 @@
                 <div class="user-block">
                     <ul class="user-block-left">
                         <li>
-                            <a class="login" href="#">Валентин Петухов</a>
+                            <a class="login" href="#">
+                                <img src="img/ic_user_footer.svg">
+                            </a>
                         </li>
                         <li class="logout">
-                            <a href="#" class="exit active">Выйти</a>
+                            <a href="#" class="exit active">
+                                Выйти
+                            </a>
                         </li>
                     </ul>
                     <ul class="user-block-right">
                         <li>
-                            <a class="compare" href="#">Сравнить</a>
+                            <a class="compare" href="#">
+                                <img src="img/ic_compare_footer.svg">
+                                Сравнить
+                            </a>
                         </li>
                         <li>
-                            <a class="cart" href="#">Корзина</a>
+                            <a class="cart" href="#">
+                                <img src="img/ic_cart_footer.svg">
+                                Корзина
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -375,6 +380,6 @@
                 </div>
             </div>
         </div>
-    </footer>
-</body>
+        </footer>
+    </body>
 </html>

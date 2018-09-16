@@ -5,7 +5,7 @@ slides_switches.addEventListener("click", function (evt) {
     evt.preventDefault();
 
     var old_slide = slider_top.querySelector(".slide-visible");
-    var new_slide = slider_top.querySelector('#'+evt.target.dataset.for);
+    var new_slide = slider_top.querySelector("#"+evt.target.dataset.for);
     if(old_slide && new_slide) {
         old_slide.classList.toggle("slide-hidden");
         old_slide.classList.toggle("slide-visible");
@@ -25,7 +25,7 @@ services_switches.addEventListener("click", function (evt) {
     evt.preventDefault();
 
     var old_slide = services.querySelector(".services-slide-visible");
-    var new_slide = services.querySelector('.'+evt.target.dataset.for);
+    var new_slide = services.querySelector("."+evt.target.dataset.for);
     if(old_slide && new_slide) {
         old_slide.classList.toggle("services-slide-hidden");
         old_slide.classList.toggle("services-slide-visible");
@@ -92,4 +92,3 @@ window.addEventListener("keydown", function (evt) {
         modal_wtite_us.classList.remove("modal-error");
     }
 });
-

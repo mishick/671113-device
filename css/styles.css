@@ -150,6 +150,7 @@ input[type='radio'].visually-hidden {
   display: -ms-flexbox;
   display: flex;
   margin-left:-30px;
+  padding-top: -100px; 
 }
 
 .logo[href] {
@@ -717,7 +718,11 @@ input[type='radio'].visually-hidden {
   background-color: #f0c52e;
 }
 
-.catalog-item:active .catalog-img img {
+.catalog-item:active {
+  opacity: .3;
+}
+
+.catalog-img img {
   opacity: .3;
 }
 
@@ -953,8 +958,11 @@ input[type='radio'].visually-hidden {
   background-image: url('../img/logo-4.png');
 }
 
-.partners .partners-item:hover .partner-link:before,
 .partners .partners-item:focus .partner-link:before {
+  opacity: 1;
+}
+
+.partners .partners-item:hover .partner-link:before {
   opacity: 1;
 }
 
@@ -982,7 +990,7 @@ input[type='radio'].visually-hidden {
   padding: 0;
 }
 
-.contact-info h2:before {
+.contact-info h2::before {
   position: absolute;
   top: -52px;
   width: 80px;
@@ -1015,7 +1023,7 @@ input[type='radio'].visually-hidden {
   position: relative;
 }
 
-.contact-info li:before {
+.contact-info li::before {
   position: absolute;
   top: 17px;
   left: -35px;
@@ -1026,7 +1034,7 @@ input[type='radio'].visually-hidden {
   background-color: #e5e5e5;
 }
 
-.contact-info li:after {
+.contact-info li::after {
   position: absolute;
   top: 19px;
   left: -33px;
@@ -1059,7 +1067,7 @@ input[type='radio'].visually-hidden {
   padding-top: 63px;
   padding-bottom: 58px;
   color: #fff;
-  background-color: #464646;
+  background-color: #464646;a
 }
 
 .main-footer a {
@@ -1088,15 +1096,15 @@ input[type='radio'].visually-hidden {
   padding-top: 2px;
 }
 
-.main-footer .login:before {
+.main-footer .login::before {
   background-image: url(../img/user-footer.svg);
 }
 
-.main-footer .compare:before {
+.main-footer .compare::before {
   background-image: url(../img/compare-footer.svg);
 }
 
-.main-footer .cart:before {
+.main-footer .cart::before {
   background-image: url(../img/cart-footer.svg);
 }
 
@@ -1134,7 +1142,7 @@ input[type='radio'].visually-hidden {
   align-items: center;
 }
 
-.main-footer-bottom:before {
+.main-footer-bottom::before {
   position: absolute;
   bottom: 21px;
   left: 0;
@@ -1186,6 +1194,7 @@ input[type='radio'].visually-hidden {
 .created-by:active path {
   fill: #7e6d31;
 }
+
 
 /* ===============================
       ======== МОДАЛЬНЫЕ ОКНА ==========
